@@ -2,6 +2,7 @@
     session_start();
     include "./connect.php";
 
+    
     $lcid = $_POST['LCID'];
     $password = $_POST['password'];
 
